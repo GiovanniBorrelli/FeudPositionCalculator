@@ -24,7 +24,7 @@
       <br> <br>
       <center>
          <% if( ratio < 50) {out.println("White is winning.");} else {out.println("Black is winning.");} 
-            if( ratio < 30 && ratio > 70) {out.println("The difference is very low, both players can still win!");} 
+            if( ratio < 30 || ratio > 70) {out.println("The difference is very low, both players can still win!");} 
             else {out.println("The difference is quite high, It may be difficult to overturn the match!");} 
             %>
       </center>
