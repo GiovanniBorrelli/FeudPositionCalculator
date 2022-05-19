@@ -1,0 +1,36 @@
+
+
+
+.div1 { width : 10px; height : 10px; background-color : black; }
+
+.square {
+  width: 300px;
+  height: 300px;
+  display:inline-block;
+  border-radius:15px;
+  background-color: #6c278a;
+}
+
+.line {
+display:inline-block;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.text { padding:10px;}
+
+.html {background-color: black;} /* Green */
